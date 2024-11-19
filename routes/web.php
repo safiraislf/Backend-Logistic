@@ -22,7 +22,7 @@ Route::get('/', function () {
     return view('auth.login');
 });
 
-
+// email maziyatulilma@gmail.com pass 888888, sulfa@gmail.com pass 123456
 
 Route::get('/login',[LoginController::class, 'index'])->name('login');
 Route::post('/login-proses',[LoginController::class, 'login_proses'])->name('login-proses');

@@ -7,6 +7,8 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash;
 
+// user yg bisa masuk akun maziyatulilma@gmail.com pass 888888
+
 class LoginController extends Controller
 {
     public function index(){
